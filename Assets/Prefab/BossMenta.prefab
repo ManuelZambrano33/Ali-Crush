@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1441581741941220178}
   - component: {fileID: 7213857636352683534}
   - component: {fileID: 3144753601637686376}
+  - component: {fileID: 8334662443408582902}
   m_Layer: 0
   m_Name: BossMenta
   m_TagString: Untagged
@@ -106,3 +107,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8334662443408582902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8739479698741157543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 692ce139ea6fbb942bab919cd4bbdc1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  sonidoGolpe: {fileID: 0}
