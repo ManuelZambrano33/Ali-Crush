@@ -14,8 +14,8 @@ public class KillZone : MonoBehaviour
                 mover.Die(); // aquí se activa el Trigger "Death" en el Animator
             }
 
-            // Reiniciamos la escena después de 2 segundos
-            Invoke(nameof(Restart), 1f);
+            // Reiniciamos la escena después de 0.6 segundos
+            Invoke(nameof(Restart), 0.6f);
         }
     }
 
