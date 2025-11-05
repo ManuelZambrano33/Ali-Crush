@@ -911,7 +911,7 @@ MonoBehaviour:
   botonJugar: {fileID: 796123025}
   botonSalir: {fileID: 796123024}
   panelMenuPrincipal: {fileID: 796123023}
-  nombreEscenaJuego: PruebaPausa
+  nombreEscenaJuego: Nivel_Andrea
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -14,7 +14,7 @@ public class MenuPrincipalManager : MonoBehaviour
 
 
     [Header("CONFIGURACIÓN ESCENAS")]
-    public string nombreEscenaJuego = "PruebaPausa";
+    public string nombreEscenaJuego = "";
 
 
     void Awake()
@@ -43,7 +43,7 @@ public class MenuPrincipalManager : MonoBehaviour
     {
         Debug.Log($"🔄 Escena cargada: {escena.name}");
 
-        if (escena.name == "PruebaPausa") // ✅ CAMBIAR por el nombre exacto
+        if (escena.name == "Nivel_Andrea") // ✅ CAMBIAR por el nombre exacto
         {
             Debug.Log("✅ Escena Menu Principal detectada - Mostrando menú");
             MostrarMenu();
