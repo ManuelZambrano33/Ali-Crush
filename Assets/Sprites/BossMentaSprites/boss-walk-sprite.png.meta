@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e11ec8bd7ce32e3459c4212eaa64a646
+guid: 3c266923718508249afea3ed17ebc716
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ali-sprite_0
+      name: boss-walk-sprite_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 17
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2908442bdbc42b2489cbfdfb65fc315b
-      internalID: -734509951
+      spriteID: 72d05393be5ddf54dafd8b0afe4ebca1
+      internalID: 1996274870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ali-sprite_1
+      name: boss-walk-sprite_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 30
         y: 0
-        width: 16
-        height: 17
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e51ca5580bfe9f4bbf40830eae358fd
-      internalID: 1394675448
+      spriteID: 51811d58900ae76469eb7e49b41b6e52
+      internalID: 1680232733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ali-sprite_2
+      name: boss-walk-sprite_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 60
         y: 0
-        width: 16
-        height: 17
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb613a59f1a74944d99bba03cc10ce23
-      internalID: -471264556
+      spriteID: bb50d1ab1c8012147bdc3e4d1a8ebdf6
+      internalID: -562214020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ali-sprite_3
+      name: boss-walk-sprite_3
       rect:
         serializedVersion: 2
-        x: 48
+        x: 90
         y: 0
-        width: 16
-        height: 17
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f041d981db0e5554fa4235d40ca7bdb7
-      internalID: 1839273973
+      spriteID: 8264c081a7dc38343b101368db6327a6
+      internalID: -1223692008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ali-sprite_4
+      name: boss-walk-sprite_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 120
         y: 0
-        width: 16
-        height: 17
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84844a161268fa947952320c1eb50166
-      internalID: -5391973
+      spriteID: 32a298a9a4f98af40b6c87cc6bc5b6ac
+      internalID: 521576179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ali-sprite_5
+      name: boss-walk-sprite_5
       rect:
         serializedVersion: 2
-        x: 80
+        x: 150
         y: 0
-        width: 16
-        height: 17
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea78aacba6f6ea249b9ffa6c46029225
-      internalID: -1069806251
+      spriteID: cf0a1bbf1733e07478463912c21e2377
+      internalID: -1706688982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ali-sprite_6
+      name: boss-walk-sprite_6
       rect:
         serializedVersion: 2
-        x: 96
+        x: 180
         y: 0
-        width: 16
-        height: 17
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588c2de09a9f1b342971225c61c99a49
-      internalID: -923191164
+      spriteID: 4dbac2ff464b3e946802bf8f211ae207
+      internalID: -1961208452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ali-sprite_7
+      name: boss-walk-sprite_7
       rect:
         serializedVersion: 2
-        x: 112
+        x: 210
         y: 0
-        width: 16
-        height: 17
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72e809ed70c3e3149bae35b242df4a0a
-      internalID: -1213932843
+      spriteID: 57318a357efa6a44794639d379470c34
+      internalID: -902264734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ali-sprite_8
+      name: boss-walk-sprite_8
       rect:
         serializedVersion: 2
-        x: 128
+        x: 240
         y: 0
-        width: 16
-        height: 17
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 710c04c14da2e3b4dbc8e781070d496a
-      internalID: -1574848122
+      spriteID: bba189d3185b5f2428a17551379a6941
+      internalID: 25860583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ali-sprite_9
+      name: boss-walk-sprite_9
       rect:
         serializedVersion: 2
-        x: 144
+        x: 270
         y: 0
-        width: 16
-        height: 17
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,20 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 668300a2c5d37364ea5fe42f9fc4fa10
-      internalID: 1187860973
+      spriteID: b9c83e9ea00837343bf659226bfc36b6
+      internalID: 1597048908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ali-sprite_10
+      name: boss-walk-sprite_10
       rect:
         serializedVersion: 2
-        x: 160
+        x: 300
         y: 0
-        width: 16
-        height: 17
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd0e903dedfe1eb4c942c9e05a3e10a8
-      internalID: -2089459746
+      spriteID: 8a96cc92c812be544897afdf931c192b
+      internalID: 2069662409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ali-sprite_11
+      name: boss-walk-sprite_11
       rect:
         serializedVersion: 2
-        x: 176
+        x: 330
         y: 0
-        width: 16
-        height: 17
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,20 +355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37f42a5a63e955f4b8aafecd65dc5d1d
-      internalID: 1118718712
+      spriteID: a93a4b02e9c230f4084f5ffec14db8e9
+      internalID: 2083016880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ali-sprite_12
+      name: boss-walk-sprite_12
       rect:
         serializedVersion: 2
-        x: 192
+        x: 360
         y: 0
-        width: 16
-        height: 17
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,8 +376,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b08bf1a22b69a5c4ead33daa3854526b
-      internalID: -4409016
+      spriteID: 945d7251080d2894cba7436c3a74c6dd
+      internalID: -1959105654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-walk-sprite_13
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c5fea0693c58048853ed895a88a7bb
+      internalID: -948278951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-walk-sprite_14
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94252e3449100c43ade6a2b9d1d68e4
+      internalID: -2083450560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss-walk-sprite_15
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7c62e2e9604174c9f3a2c138c24735
+      internalID: -1237559671
       vertices: []
       indices: 
       edges: []
@@ -393,19 +456,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ali-sprite_0: -734509951
-      Ali-sprite_1: 1394675448
-      Ali-sprite_10: -2089459746
-      Ali-sprite_11: 1118718712
-      Ali-sprite_12: -4409016
-      Ali-sprite_2: -471264556
-      Ali-sprite_3: 1839273973
-      Ali-sprite_4: -5391973
-      Ali-sprite_5: -1069806251
-      Ali-sprite_6: -923191164
-      Ali-sprite_7: -1213932843
-      Ali-sprite_8: -1574848122
-      Ali-sprite_9: 1187860973
+      boss-walk-sprite_0: 1996274870
+      boss-walk-sprite_1: 1680232733
+      boss-walk-sprite_10: 2069662409
+      boss-walk-sprite_11: 2083016880
+      boss-walk-sprite_12: -1959105654
+      boss-walk-sprite_13: -948278951
+      boss-walk-sprite_14: -2083450560
+      boss-walk-sprite_15: -1237559671
+      boss-walk-sprite_2: -562214020
+      boss-walk-sprite_3: -1223692008
+      boss-walk-sprite_4: 521576179
+      boss-walk-sprite_5: -1706688982
+      boss-walk-sprite_6: -1961208452
+      boss-walk-sprite_7: -902264734
+      boss-walk-sprite_8: 25860583
+      boss-walk-sprite_9: 1597048908
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
