@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ali-Death
+  m_Name: BossIdle
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,7 +21,17 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -1213932843, guid: e11ec8bd7ce32e3459c4212eaa64a646, type: 3}
+      value: {fileID: 1764852965, guid: bf792ecd34427c745b11413310d32098, type: 3}
+    - time: 0.2
+      value: {fileID: 352311338, guid: bf792ecd34427c745b11413310d32098, type: 3}
+    - time: 0.4
+      value: {fileID: -1169184887, guid: bf792ecd34427c745b11413310d32098, type: 3}
+    - time: 0.6
+      value: {fileID: -2054910213, guid: bf792ecd34427c745b11413310d32098, type: 3}
+    - time: 0.8
+      value: {fileID: -1528984437, guid: bf792ecd34427c745b11413310d32098, type: 3}
+    - time: 1
+      value: {fileID: 1764852965, guid: bf792ecd34427c745b11413310d32098, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,13 +54,18 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -1213932843, guid: e11ec8bd7ce32e3459c4212eaa64a646, type: 3}
+    - {fileID: 1764852965, guid: bf792ecd34427c745b11413310d32098, type: 3}
+    - {fileID: 352311338, guid: bf792ecd34427c745b11413310d32098, type: 3}
+    - {fileID: -1169184887, guid: bf792ecd34427c745b11413310d32098, type: 3}
+    - {fileID: -2054910213, guid: bf792ecd34427c745b11413310d32098, type: 3}
+    - {fileID: -1528984437, guid: bf792ecd34427c745b11413310d32098, type: 3}
+    - {fileID: 1764852965, guid: bf792ecd34427c745b11413310d32098, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.016666668
+    m_StopTime: 1.0166667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
