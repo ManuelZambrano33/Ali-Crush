@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1481393531511774538}
-  - component: {fileID: 8948286213298364471}
+  - component: {fileID: 2611085557108903825}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8948286213298364471
+--- !u!114 &2611085557108903825
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45,7 +45,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxVidas: 3
-  hudPrefab: {fileID: 2064405017732869525, guid: ba180a6dc48d94948ab67fed06db8f8d, type: 3}
-  menuPausaPrefab: {fileID: 0}
-  gameOverPrefab: {fileID: 0}
-  botonPausa: {fileID: 0}
+  hudPrefab: {fileID: 3490544173881556584, guid: e1bbffce3afa85e4e9c6ef5a8a6c70ff, type: 3}

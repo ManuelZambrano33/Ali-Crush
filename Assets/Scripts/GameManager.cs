@@ -20,16 +20,6 @@ public class GameManager : MonoBehaviour
     private HUD hudInstance;
 
     // ==========================
-    // 🟣 SECCIÓN: MENÚS Y UI
-    // ==========================
-    [Header("Prefabs de UI")]
-    public GameObject menuPausaPrefab;
-    public GameObject gameOverPrefab;
-
-    private GameObject menuPausaInstance;
-    public Button botonPausa;
-
-    // ==========================
     // 🟢 CICLO DE VIDA UNITY
     // ==========================
     private void Awake()
@@ -58,8 +48,7 @@ public class GameManager : MonoBehaviour
         if (hudInstance != null)
             hudInstance.ActualizarVidas(vidas);
 
-        // Crear interfaz de usuario (pausa, etc.)
-        CrearInterfazUsuario();
+
     }
 
     private void OnEnable()
@@ -83,9 +72,10 @@ public class GameManager : MonoBehaviour
     // ❤️ LÓGICA DE VIDAS
     // ==========================
     public void PerderVida()
-    {
-        vidas--;
 
+           {
+        vidas--;
+Debug.LogWarning("⚠️ GameManager.Instance AAQUIIII "); 
         if (hudInstance != null)
             hudInstance.ActualizarVidas(vidas);
 
@@ -94,8 +84,8 @@ public class GameManager : MonoBehaviour
             vidas = maxVidas;
 
             // Mostrar Game Over si hay prefab
-            if (gameOverPrefab != null)
-                Instantiate(gameOverPrefab);
+         //   if (gameOverPrefab != null)
+           //     Instantiate(gameOverPrefab);
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
@@ -119,48 +109,5 @@ public class GameManager : MonoBehaviour
         return vidas;
     }
 
-    // ==========================
-    // ⏸️ MENÚ DE PAUSA Y UI
-    // ==========================
-    private void CrearInterfazUsuario()
-    {
-        if (menuPausaPrefab != null && menuPausaInstance == null)
-        {
-            menuPausaInstance = Instantiate(menuPausaPrefab);
-            DontDestroyOnLoad(menuPausaInstance);
-            menuPausaInstance.SetActive(false);
-        }
-    }
 
-    public void MostrarMenuPausa()
-    {
-        if (menuPausaInstance != null)
-        {
-            menuPausaInstance.SetActive(true);
-            Time.timeScale = 0f;
-            if (botonPausa != null)
-                botonPausa.gameObject.SetActive(false);
-        }
-    }
-
-    public void OcultarMenuPausa()
-    {
-        if (menuPausaInstance != null)
-        {
-            menuPausaInstance.SetActive(false);
-            Time.timeScale = 1f;
-            if (botonPausa != null)
-                botonPausa.gameObject.SetActive(true);
-        }
-    }
-
-    public void ConfigurarBotonPausa(Button nuevoBoton)
-    {
-        botonPausa = nuevoBoton;
-        if (botonPausa != null)
-        {
-            botonPausa.onClick.RemoveAllListeners();
-            botonPausa.onClick.AddListener(MostrarMenuPausa);
-        }
-    }
 }
