@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,6 +8,8 @@ public class HUD : MonoBehaviour
 
     public void ActualizarVidas(int cantidad)
     {
+        Debug.Log("🎯 El jugador ha chocado con el enemigo");
+
         for (int i = 0; i < vidas.Length; i++)
             vidas[i].SetActive(i < cantidad);
     }
